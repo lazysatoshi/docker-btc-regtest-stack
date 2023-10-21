@@ -1,0 +1,10 @@
+fulcrum-testnet:
+  build: .
+  dockerfile: Dockerfile
+  container_name: fulcrum-testnet
+  volumes:
+    - /mnt/data/bitcoin.com/blockchain-data/fulcrum/testnet/blockchain:/home/safeuser/blockchain
+  ports:
+    - 60001:50001
+    - 60002:50002
+  restart: always
