@@ -4,9 +4,9 @@ I share my docker stack for developing Bitcoin stuff. This is a quick and dirty 
 
 # Docker stack
 
-This are the docker stack containers:
-* bitcoind
-* fulcrum
+These are the docker stack containers:
+* bitcoind: oficial bitcoin core node
+* fulcrum: a c++ electrum server implementation
 * mempool.space (web, api, db)
 
 # Explanation
