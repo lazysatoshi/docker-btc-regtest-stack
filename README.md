@@ -1,6 +1,5 @@
 # Introduction
-I share my docker stack for developing Bitcoin stuff. This is a quit and dirty stack, things could be done in a better way, but is convienent for me. I hope it could be useful for other plebs. Coments and PRs are very welcome. Please don't use it on mainnet, there are better solutions for this.
-This https://github.com/Bitshala/LBTCL-Cohort
+I share my docker stack for developing Bitcoin stuff. This is a quick and dirty stack, things could be done in a better way, but this way is convienent for me. I hope it could be useful for other plebs. Coments and PRs are very welcome. Please don't use it on mainnet, there are better solutions for this. I create this stuff during the awesome [Bitshala's](https://www.bitshala.org/) cohort  [Learning Bitcoin from the Command Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line). Please, checkout [Bitshala](https://www.bitshala.org/) site, this folks are making really great things for bitcoin plebs.
 
 
 # Docker stack
