@@ -27,4 +27,4 @@ cd docker-btc-regtest-stack
 docker compose up
 ```
 
-Wait some minutes, after downloading container images and bulding the stack. Then, you should connect to your [mempool.space](https://localhost:1080) bitcoin regtest explorer at localhost port 1080 and enjoy it!
+Wait some minutes, after downloading container images and bulding the stack. Then, you should connect to your [mempool.space](http://localhost:1080) bitcoin regtest explorer at localhost port 1080 and enjoy it!
