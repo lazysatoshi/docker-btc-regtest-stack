@@ -35,6 +35,7 @@ create_wallets() {
   echo -e "${COLOR}Creating Wallets...${NO_COLOR}"
   # Legacy wallets created in order to use command dumpprivkey
   bitcoin-cli -datadir=/tmp/lazysatoshi_datadir -named createwallet wallet_name=Miner descriptors=false
+  bitcoin-cli -datadir=/tmp/lazysatoshi_datadir -named createwallet wallet_name=Alice descriptors=false
   ADDR_MINING=$(bitcoin-cli -datadir=/tmp/lazysatoshi_datadir -rpcwallet=Miner getnewaddress "Mining Reward")
   ADDR_MINER=$(bitcoin-cli -datadir=/tmp/lazysatoshi_datadir -rpcwallet=Miner getnewaddress "Miner receive Alice payment" legacy)
   PUBKEY_ADDR_MINER=$(bitcoin-cli -regtest -datadir=/tmp/lazysatoshi_datadir -rpcwallet=Miner -named getaddressinfo address=$ADDR_MINER | jq -r '.pubkey')
