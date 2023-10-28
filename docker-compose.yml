@@ -30,6 +30,9 @@ services:
     container_name: fulcrum-regtest
     depends_on:
       - btc-regtest
+    expose:
+      - "50001"
+      - "50002"
     ports:
       - 50001:50001
       - 50002:50002
